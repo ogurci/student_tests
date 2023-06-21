@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Стартовое окно</title>
+  <link rel="stylesheet" href="{% static 'main/css/manual_test_css.css' %}">
+</head>
+<body>
+  <div class="area">
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+</ul>
+      <ul class="circles2">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+  </div>
+  <div class="centr">
+  <div class="container">
+    <h1>Вам будут предложены высказывания, которые так или иначе отражают различные стороны вашей жизни.
+        Пожалуйста, отвечайте на них исходя из собственных убеждений.</h1>
+    <button onclick="document.location='{% url 'test' %}'">Пройти тест</button>
+  </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Игра Филворд</title>
+  <link rel="stylesheet" href="{% static 'main/css/filvord_css.css' %}">
+    <script src="{% static 'main/js/filvord_js.js' %}"></script>
+</head>
+<body>
+  <div class="area">
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+</ul>
+<ul class="circles2">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+  </div>
+  <div class="centr">
+  <h1>Игра Филворд</h1>
+  <div class="game-container">
+    <div id="score">Очки: <span>0</span></div>
+    <div id="message"></div>
+    <div class="game-board">
+      <!-- Вставьте клетки филворда здесь -->
+    </div>
+    <div class="input-word">
+      <button id="clear-button">Очистить выделение</button>
+    </div>
+    <h1>Таймер</h1>
+  <div id="timer"></div>
+  <div class="knopka">
+    <a href="{% url 'end_window' %}" class="btn" id="finishButton">Завершить</a>
+  </div>
+  </div>
+  </div>
+  <script src="{% static 'main/js/filvord_2_js.js' %}"></script>
+</body>
+</html>

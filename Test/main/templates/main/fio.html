@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Регистрация</title>
+    <link rel="stylesheet" href="{% static 'main/css/fio_css.css' %}">
+</head>
+<body>
+<div class="centr">
+  <div class="area">
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+</ul>
+      <ul class="circles2">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+  </div>
+  <div class="container">
+    <h1>Введите ваше ФИО</h1>
+    <form method="post">
+        {% csrf_token %}
+      <label for="fam">Фамилия:</label>
+      {{ form.surname }}
+      <label for="name">Имя:</label>
+      {{ form.name1 }}
+      <label for="ot4">Отчество:</label>
+      {{ form.patronymic }}
+
+        <span>{{ error }}</span>
+      <br><br>
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
+  </div>
+</body>
+</html>

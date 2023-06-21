@@ -1,0 +1,359 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Тест на эмоциональный интеллект</title>
+	<link rel="stylesheet" href="{% static 'main/css/test_css.css' %}">
+	<script src="{% static 'main/js/test_js.js' %}"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="area">
+			<ul class="circles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+		</ul>
+		<ul class="circles2">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+	</ul>
+		  </div>
+		<div class="cont1">
+		<h1>Тест на эмоциональный интеллект</h1>
+		<form id="quiz" >
+
+			<div class="question">
+				<h2>Вопрос 1</h2>
+				<p>Для меня как отрицательные, так и положительные эмоции служат источником знания о том, как поступать в жизни.</p>
+				<label class="custom-radio"><input type="radio" name="q1" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q1" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q1" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q1" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q1" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q1" value="3"> Полностью согласен</label>
+			</div>
+			<div class="question">
+				<h2>Вопрос 2</h2>
+				<p>Отрицательные эмоции помогают мне понять, что я должен изменить в своей жизни.</p>
+				<label><input type="radio" name="q2" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q2" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q2" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q2" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q2" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q2" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 3</h2>
+				<p>Я спокоен, когда испытываю давление со стороны.</p>
+				<label><input type="radio" name="q3" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q3" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q3" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q3" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q3" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q3" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 4</h2>
+				<p>Я способен наблюдать изменение своих чувств.</p>
+				<label><input type="radio" name="q4" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q4" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q4" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q4" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q4" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q4" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 5</h2>
+				<p>Когда необходимо, я могу быть спокойным и сосредоточенным, чтобы действовать в соответствии с запросами жизни.</p>
+				<label><input type="radio" name="q5" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q5" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q5" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q5" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q5" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q5" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 6</h2>
+				<p>Когда необходимо, я могу вызвать у себя широкий спектр положительных эмоций, такие, как веселье, радость, внутренний подъем и юмор.</p>
+				<label><input type="radio" name="q6" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q6" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q6" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q6" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q6" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q6" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 7</h2>
+				<p>Я слежу за тем, как я себя чувствую.</p>
+				<label><input type="radio" name="q7" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q7" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q7" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q7" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q7" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q7" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 8</h2>
+				<p>После того как что-то расстроило меня, я могу легко совладать со своими чувствами.</p>
+				<label><input type="radio" name="q8" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q8" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q8" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q8" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q8" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q8" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 9</h2>
+				<p>Я способен выслушивать проблемы других людей.</p>
+				<label><input type="radio" name="q9" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q9" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q9" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q9" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q9" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q9" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 10</h2>
+				<p>Я не зацикливаюсь на отрицательных эмоциях.</p>
+				<label><input type="radio" name="q10" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q10" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q10" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q10" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q10" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q10" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 11</h2>
+				<p>Я чувствителен к эмоциональным потребностям других.</p>
+				<label><input type="radio" name="q11" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q11" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q11" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q11" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q11" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q11" value="3"> Полностью согласен</label>
+			</div>
+			<div class="question">
+				<h2>Вопрос 12</h2>
+				<p>Я могу действовать на других людей успокаивающе.</p>
+				<label><input type="radio" name="q12" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q12" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q12" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q12" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q12" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q12" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 13</h2>
+				<p>Я могу заставить себя снова и снова встать перед лицом препятствия.</p>
+				<label><input type="radio" name="q13" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q13" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q13" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q13" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q13" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q13" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 14</h2>
+				<p>Я стараюсь подходить к жизненным проблемам творчески.</p>
+				<label><input type="radio" name="q14" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q14" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q14" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q14" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q14" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q14" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 15</h2>
+				<p>Я адекватно реагирую на настроения, побуждения и желания других людей.</p>
+				<label><input type="radio" name="q15" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q15" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q15" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q15" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q15" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q15" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 16</h2>
+				<p>Я могу легко входить в состояние спокойствия, готовности и сосредоточенности.</p>
+				<label><input type="radio" name="q16" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q16" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q16" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q16" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q16" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q16" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 17</h2>
+				<p>Когда позволяет время, я обращаюсь к своим негативным чувствам и разбираюсь, в чем проблема.</p>
+				<label><input type="radio" name="q17" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q17" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q17" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q17" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q17" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q17" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 18</h2>
+				<p>Я способен быстро успокоиться после неожиданного огорчения.</p>
+				<label><input type="radio" name="q18" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q18" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q18" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q18" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q18" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q18" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 19</h2>
+				<p>Знание моих истинных чувств важно для поддержания «хорошей формы».</p>
+				<label><input type="radio" name="q19" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q19" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q19" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q19" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q19" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q19" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 20</h2>
+				<p>Я хорошо понимаю эмоции других людей, даже если они не выражены открыто.</p>
+				<label><input type="radio" name="q20" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q20" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q20" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q20" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q20" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q20" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 21</h2>
+				<p>Я могу хорошо распознавать эмоции по выражению лица.</p>
+				<label><input type="radio" name="q21" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q21" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q21" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q21" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q21" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q21" value="3"> Полностью согласен</label>
+			</div>
+			<div class="question">
+				<h2>Вопрос 22</h2>
+				<p>Я могу легко отбросить негативные чувства, когда необходимо действовать.</p>
+				<label><input type="radio" name="q22" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q22" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q22" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q22" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q22" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q22" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 23</h2>
+				<p>Я хорошо улавливаю знаки в общении, которые указывают на то, в чем другие нуждаются.</p>
+				<label><input type="radio" name="q23" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q23" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q23" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q23" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q23" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q23" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 24</h2>
+				<p>Люди считают меня хорошим знатоком переживаний других людей.</p>
+				<label><input type="radio" name="q24" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q24" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q24" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q24" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q24" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q24" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 25</h2>
+				<p>Люди, осознающие свои истинные чувства, лучше управляют своей жизнью.</p>
+				<label><input type="radio" name="q25" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q25" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q25" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q25" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q25" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q25" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 26</h2>
+				<p>Я способен улучшить настроение других людей.</p>
+				<label><input type="radio" name="q26" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q26" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q26" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q26" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q26" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q26" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 27</h2>
+				<p>Со мной можно посоветоваться по вопросам отношений между людьми.</p>
+				<label><input type="radio" name="q27" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q27" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q27" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q27" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q27" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q27" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 28</h2>
+				<p>Я хорошо настраиваюсь на эмоции других людей.</p>
+				<label><input type="radio" name="q28" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q28" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q28" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q28" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q28" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q28" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 29</h2>
+				<p>Я помогаю другим использовать их побуждения для достижения личных целей.</p>
+				<label><input type="radio" name="q29" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q29" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q29" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q29" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q29" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q29" value="3"> Полностью согласен</label>
+			</div>
+      <div class="question">
+				<h2>Вопрос 30</h2>
+				<p>Я могу легко отключиться от переживания неприятностей.</p>
+				<label><input type="radio" name="q30" value="-3"> Полностью не согласен</label>
+				<label><input type="radio" name="q30" value="-2"> В основном не согласен</label>
+				<label><input type="radio" name="q30" value="-1"> Отчасти не согласен</label>
+				<label><input type="radio" name="q30" value="1"> Отчасти согласен</label>
+				<label><input type="radio" name="q30" value="2"> В основном согласен</label>
+				<label><input type="radio" name="q30" value="3"> Полностью согласен</label>
+			</div>
+			<button type="submit" class="btn-submit" >Отправить результаты</button>
+			<button id="resetBtn" class="btn-reset">Сбросить</button>
+			<input type="hidden" id="id_results" name="results" value="">
+  <input type="hidden" id="id_emotionalIntelligenceLevels" name="emotionalIntelligenceLevels" value="">
+  <input type="hidden" id="id_integrativeIntelligenceLevel" name="integrativeIntelligenceLevel" value="">
+
+		</form>
+	</div>
+	</div>
+	<script>
+		const resetBtn = document.getElementById('resetBtn');
+		resetBtn.addEventListener('click', function() {
+			resultElement.innerHTML = '';
+			resultElement.classList.remove('result-pass', 'result-fail');
+			quizForm.reset();
+		});
+	</script>
+</body>
+</html>

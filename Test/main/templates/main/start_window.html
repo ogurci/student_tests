@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Стартовое окно</title>
+    <link rel="stylesheet" href="{% static 'main/css/start_window_css.css' %}">
+</head>
+<body>
+  <div class="area">
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+</ul>
+      <ul class="circles2">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+  </div>
+  <div class="container">
+    <h1>Добро пожаловать!</h1>
+    <button onclick="document.location='{% url 'fio' %}'">Начать</button>
+  </div>
+</body>
+</html>
